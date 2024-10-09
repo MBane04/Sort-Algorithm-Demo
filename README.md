@@ -9,12 +9,9 @@ This project demonstrates the implementation of basic sorting algorithms—Selec
   - [Bubble Sort](#bubble-sort)
   - [Insertion Sort](#insertion-sort)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
   - [C Implementation](#c-implementation)
   - [Assembly Implementation](#assembly-implementation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 This project is designed to showcase basic sorting algorithms implemented in both C and Assembly languages. Each algorithm sorts an array of numbers in ascending order, and the project focuses on understanding the implementation differences between high-level and low-level languages.
@@ -36,3 +33,24 @@ Insertion Sort works by building a sorted array one element at a time. It remove
 - **Assembly Language**: For the low-level implementation of sorting algorithms.
 - **GCC**: For compiling C code.
 - **NASM or MASM**: For assembling the Assembly code.
+
+## How to Run
+
+### C Implementation
+1. Compile the C code:
+   ```bash
+   gcc -o sort sorting.c
+2. Run the C Code:
+   ```bash
+     ./sort
+
+
+### Assembly Implementation
+1. Compile the Assembly code:
+   ```bash
+   nasm -f elf64 sorting.asm
+    ld -o sort sorting.o
+
+2. Run the C Code:
+   ```bash
+     ./sort
