@@ -18,6 +18,8 @@ This project is designed to showcase basic sorting algorithms implemented in bot
 
 The project is useful for anyone learning about sorting algorithms and low-level programming, and can serve as a foundation for further optimization or comparison of algorithm efficiency.
 
+This is a class project,which required an array and a function
+
 ## Sorting Algorithms
 ### Selection Sort
 Selection Sort is an in-place, comparison-based sorting algorithm. It works by repeatedly selecting the smallest element from the unsorted portion of the array and swapping it with the first unsorted element.
